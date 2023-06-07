@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=PT+Sans&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/fceea8ae97.js" crossorigin="anonymous"></script>
+  <title>Encriptador</title>
+</head>
+
+<body>
+  <!-- <img src="image/4935872.jpg" alt="fondo"> -->
+
+  <header>
+    <div class="caja">
+      <img class="logo" src="image/Logo@2x.png" alt="logo">
+    </div>
+  </header>
+
+  <main>
+
+    <selection class="mensajePrincipal">
+      <div class="areaTexto">
+        <textarea name="comentario" id="comentario"  placeholder="Ingrese el texto aqui"></textarea>
+      </div>
+    </selection>
+
+    <section id="cajaImgtext" class="cajaImgtext">
+
+      <div class="cajaMuneca">
+        <img class="imgMuneca" src="image/muñeca.avif" alt="muñeca">
+      </div>
+      
+  
+      <div class="cajaTexto">
+        <h1>Ningún mensaje fue encontrado <br><br><p>Ingresa el texto que deseas encriptar o desencriptar</p></h1>
+      </div>
+      
+    </section>
+
+    <section class="CajatextEncriptador">
+
+      <div class="cajaTextoDesincriptar">
+        <h1 id="sinmensaje">mensaje para desincrptar</h1>
+      </div>
+      <div class="cajabtn">
+        <input class="btncop" type="button" id="button3" value="Copiar Texto">
+      </div>
+    </section>
+  
+    
+    <div class="condicion">
+      <h2>Solo letras minúsculas y sin acentos</h2>
+    </div>
+    
+    <section class="cajabuttons">
+      
+      <div class="btns">
+        <input class="btnenc" type="button" id="button1" value="Encriptar">
+        <input class="btndes" type="button" id="button2" value="Desencriptar">
+      </div>
+      
+    </section>
+
+  </main>
+
+
+  <footer class="caja-iconos">
+    <section class="iconos">
+      <a href="https://github.com/Yorchit" class="fa-brands fa-github" target="_blank"></a>
+      <a href="#" class="fa-brands fa-linkedin"></a>
+    </section>
+    <section class="caja-copy">
+      <p class="Copyright">Copyright &copy;2023; Designed by <span class="designed">Yorch</span></p>
+    </section>
+  </footer>
+
+</body>
+<script src="main.js"></script>
+</html>
